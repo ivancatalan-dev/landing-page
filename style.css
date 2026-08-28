@@ -170,7 +170,7 @@ ul {
     align-items: center;
     background-color: #E5E7EB;
     min-height: 30vh;
-    padding: 60px 277px 60px 277px;
+    padding: 60px 403px 60px 403px;
 }
 
 .card-lower-middle > .text{
@@ -180,7 +180,54 @@ ul {
     color: black
 }
 
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 60px 0px 60px 0px;
+}
 
+.card-bottom > .card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 150px;
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 16px;
+
+}
+
+.card-bottom > .card > .text > .section-header{
+    color: white;
+    font-weight: bold;
+}
+
+.card-bottom > .card > .text > .text{
+    font-weight: 100;
+    color: white;
+}
+
+.card-bottom > .card > button{
+    color: white;
+    background-color: #3882F6;
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c4858;
+    color: white;
+    height: 100px;
+    font-weight: 100;
+}
 
 
 .italic-text{
